@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: [ './nopagesfound.component.css'
   ]
 })
-export class NopagesfoundComponent implements OnInit {
+export class NopagesfoundComponent  {
 
   constructor() { }
 
