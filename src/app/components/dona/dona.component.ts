@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
-import { ChartType } from 'chart.js';
-import { MultiDataSet, Label } from 'ng2-charts';
+
+import { MultiDataSet, Label, Color } from 'ng2-charts';
 
 
 @Component({
@@ -20,10 +20,10 @@ export class DonaComponent  {
    [350, 450, 100],
 
  ];
- public doughnutChartType: ChartType = 'doughnut';
 
 
-public colors: Colors[] = [
+
+public colors:  Color[] = [
  { backgroundColor: ['#6857E6', '#009FEE', '#F02059'] }
 ];
 
